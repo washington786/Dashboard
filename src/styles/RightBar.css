@@ -1,0 +1,30 @@
+.right-bar-container{
+    flex:3;
+    overflow-y: auto;
+}
+
+.profile-user-online{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.circle-active{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1px;
+}
+
+.image-with-status{
+    display: flex;
+    position: relative;
+}
+
+.main-con-users{
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
